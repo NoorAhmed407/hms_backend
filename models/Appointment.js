@@ -3,11 +3,6 @@ const Schema = mongoose.Schema;
 
 //Create Ninja Schema and model
 const AppointmentSchema = new Schema({
-  name: {
-    type: String,
-    required: [true, "Name field is required"],
-  },
-
   doctor_id: {
     type: Number,
     required: [true, "doctor_id field is required"],

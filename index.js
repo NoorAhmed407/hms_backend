@@ -12,6 +12,7 @@ app.use(express.json());
 
 //Initialized Routes
 app.use("/auth", require("./routes/Auth"));
+app.use("/appointment", require("./routes/Appointment"));
 app.use("/api", require("./routes/api"));
 
 //error handling middleware
